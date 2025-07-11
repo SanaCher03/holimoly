@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Путешествия по Сеулу | Korea Adventures</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="light-theme">
+    <header class="header">
+        <div class="container">
+            <nav class="navbar">
+                <a href="#" class="logo">
+                    <img src="images/icons/South-Korea-10.svg" alt="Флаг Кореи" class="flag-icon">
+                    <span class="logo-text">Seoul<span>Explorer</span></span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#about">О Сеуле</a></li>
+                    <li><a href="#tours">Туры</a></li>
+                    <li><a href="#gallery">Галерея</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+                <div class="header-actions">
+                    <button type="button" class="theme-toggle" aria-label="Переключить тему">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                    <button type="button" class="burger-menu" aria-label="Меню">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-overlay"></div>
+            <div class="container hero-content">
+                <h1>Откройте для себя Сеул</h1>
+                <p>Погрузитесь в культуру современного и традиционного Кореи</p>
+                <a href="#tours" class="btn">Выбрать тур</a>
+            </div>
+        </section>
+
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Город контрастов</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="about-content framed-text">
+                    <p>Сеул - это удивительное сочетание древних традиций и современных технологий.</p>
+                    <p>Откройте для себя 600-летние дворцы рядом с небоскребами, традиционные рынки и высокотехнологичные районы.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="gallery" class="section gallery-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Фото Сеула</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="slider">
+                    <div class="slides">
+                        <div class="slide active">
+                            <img src="images/slider/palace.jpg" alt="Дворец Кёнбоккун">
+                            <div class="slide-caption">Дворец Кёнбоккун - главный королевский дворец династии Чосон</div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/slider/night-seoul-south-korea.jpg" alt="Ночной Сеул">
+                            <div class="slide-caption">Ночной Сеул - город, который никогда не спит</div>
+                        </div>
+                        <div class="slide">
+                            <img src="images/slider/street.jpg" alt="Район Мёндон">
+                            <div class="slide-caption">Мёндон - центр моды и уличной еды</div>
+                        </div>
+                    </div>
+                    <button type="button" class="slider-btn prev">❮</button>
+                    <button type="button" class="slider-btn next">❯</button>
+                    <div class="slider-dots"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tours" class="section tours-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Наши туры</h2>
+                    <div class="underline"></div>
+                </div>
+                <div class="tours-grid">
+                    <article class="tour-card">
+                        <img src="images/cuisine.jpg" alt="Корейская еда">
+                        <div class="tour-content">
+                            <h3>Классический Сеул</h3>
+                            <p class="duration">3 дня / 2 ночи</p>
+                            <div class="tour-features">
+                                <ul>
+                                    <li>Дворец Кёнбоккун</li>
+                                    <li>Район Мёндон</li>
+                                    <li>Башня Namsan</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </article>
+                    <article class="tour-card">
+                        <img src="images/hanbok.jpg" alt="Традиционный костюм">
+                        <div class="tour-content">
+                            <h3>Гастрономический тур</h3>
+                            <p class="duration">2 дня / 1 ночь</p>
+                            <div class="tour-features">
+                                <ul>
+                                    <li>Рынок Кванчжан</li>
+                                    <li>Мастер-класс по кимчи</li>
+                                    <li>Ужин в традиционном стиле</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </article>
+                    <article class="tour-card">
+                        <img src="images/namsan.jpg" alt="Башня Namsan">
+                        <div class="tour-content">
+                            <h3>Ночной Сеул</h3>
+                            <p class="duration">1 день</p>
+                            <div class="tour-features">
+                                <ul>
+                                    <li>Район Хондэ</li>
+                                    <li>Мост Банпо</li>
+                                    <li>Коктейль-бар в Ганнаме</li>
+                                </ul>
+                            </div>
+                            <a href="#" class="btn">Подробнее</a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section contact-form-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2>Обратная связь</h2>
+                    <div class="underline"></div>
+                </div>
+                <form class="contact-form">
+                    <div class="form-group">
+                        <label for="name">Ваше имя</label>
+                        <input type="text" id="name" placeholder="Ваше имя" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Ваш email</label>
+                        <input type="email" id="email" placeholder="Ваш email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Ваше сообщение</label>
+                        <textarea id="message" placeholder="Ваше сообщение" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn">Отправить</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer id="contacts" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-info">
+                    <h3 class="footer-logo">SeoulExplorer</h3>
+                    <p class="footer-description">Путешествия по Корее с 2010 года</p>
+                    <div class="social-links">
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-contacts">
+                    <h4>Контакты</h4>
+                    <a href="tel:+123456789">+82 10 1234 5678</a>
+                    <a href="mailto:info@seoulexplorer.com">info@seoulexplorer.com</a>
+                    <p>Сеул, район Чонно-гу, улица Инса-дон</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; <span id="current-year">2023</span> SeoulExplorer. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script/index.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
